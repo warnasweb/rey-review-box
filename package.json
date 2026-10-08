@@ -1,0 +1,26 @@
+{
+  "name": "rey-review-box",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A focused GitHub review workspace for Claude Code",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "node --import tsx --test unit/*.spec.ts",
+    "typecheck": "tsc --noEmit",
+    "validate": "claude plugin validate .",
+    "test:plugin": "claude plugin test .",
+    "postinstall": "node scripts/api-types.mjs"
+  },
+  "devDependencies": {
+    "@anthropic-ai/claude-code": "2.1.294",
+    "@types/node": "^22.0.0",
+    "prettier": "3.6.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

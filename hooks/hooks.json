@@ -1,0 +1,4 @@
+{
+  "description": "Review dashboard, status band, shared GitHub cache and review drafts",
+  "modules": ["./register.tsx"]
+}

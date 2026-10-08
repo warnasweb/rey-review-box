@@ -1,0 +1,17 @@
+{
+  "name": "rey-review-box",
+  "owner": {
+    "name": "warnasweb"
+  },
+  "plugins": [
+    {
+      "name": "rey-review-box",
+      "source": "./",
+      "description": "A focused GitHub review workspace for Claude Code",
+      "version": "0.1.0"
+    }
+  ],
+  "metadata": {
+    "description": "GitHub review workspace for Claude Code"
+  }
+}

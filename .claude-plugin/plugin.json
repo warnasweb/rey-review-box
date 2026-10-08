@@ -1,0 +1,7 @@
+{
+  "name": "rey-review-box",
+  "version": "0.1.0",
+  "description": "GitHub reviews, pull requests, issues and activity in your Claude Code workspace",
+  "author": { "name": "warnasweb" },
+  "license": "MIT"
+}
